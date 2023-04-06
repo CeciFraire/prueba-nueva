@@ -45,6 +45,17 @@ h2{/* selector global*/
      margin-bottom: 30px;
      margin-top: 15px;
      text-align: center;
+
+    font-family: 'Kanit', sans-serif; 
+     height: 5px;
+     font-size: x-large;
+}
+
+h4{
+    color:rgb(231, 7, 160);
+    font-family: 'Kanit', sans-serif; 
+    height: 5px;
+    font-size: large;
 }
 
 .Frairesenace{
@@ -54,4 +65,11 @@ h2{/* selector global*/
 
 a{
     text-decoration: none;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-family: 'Kanit', sans-serif; 
+    height: 5px;
+    font-size: large;
 }
