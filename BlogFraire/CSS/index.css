@@ -1,0 +1,75 @@
+/*selector{
+    propiedad: valor;
+    propiedad: valor;
+}
+
+
+*/
+
+
+h1{/* selector global*/
+    color: rgb(144, 1, 144);
+
+    /* borde */
+    border-top: dashed 3px black;
+    border-bottom: dashed 3px black;
+    border-right: dashed 3px black;
+    border-left: dashed 3px rgb(3, 3, 3);  
+    
+    /*Relleno y distancia entre el texto y bordes*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    /*Margen*/
+    margin-bottom: 30px;
+    margin-top: 15px;
+
+    text-align: center;
+}
+
+h2{/* selector global*/
+    color: rgb(232, 7, 232);
+    background-color: rgb(245, 240, 240);
+
+    /*bordes*/
+    border-top: solid 3px;
+    border-bottom: solid 3px;
+    border-right: dashed 5px;
+    border-left: dashed 5px; 
+
+    /*Relleno*/
+     padding-top: 5px;
+     padding-bottom: 5px;
+ 
+     /*Margen*/
+     margin-bottom: 30px;
+     margin-top: 15px;
+     text-align: center;
+
+    font-family: 'Kanit', sans-serif; 
+     height: 5px;
+     font-size: x-large;
+}
+
+h4{
+    color:rgb(231, 7, 160);
+    font-family: 'Kanit', sans-serif; 
+    height: 5px;
+    font-size: large;
+}
+
+.Frairesenace{
+    color: rgb(189, 4, 189);
+    background-color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-family: 'Kanit', sans-serif; 
+    height: 5px;
+    font-size: large;
+}
