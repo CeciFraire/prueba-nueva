@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap')
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    }
+
+:root{
+    --color-principal: #FFC727;
+    --color-complementario: #ffb412;
+    --color-secundario: #DFEAFF;
+    }
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4vh 5vw;
+}
+
+header button {
+background-color: transparent;
+border: none;
+font-size: 1.4rem;
+}
+
+.logo{
+    position: relative;
+}
+.logo div{
+    display: flex;
+}
+
+.bi-people-fill{
+    font-size: 1.7rem;
+    position: absolute;
+    top: -28px;
+    color: var(--color-principal);
+}
+.bi-bookmark-fill{
+    padding-top: 5px;
+    color: var(--color-complementario);
+}
+.logo div h2{
+    line-height: 28px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.colorprincipal{
+    color: var(--color-principal);
+    }
+
+.hero{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 2.2rem;
+}
+
+.services{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    background-color: var(--color-secundario);
+    padding: 5vh 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.serviceCard{
+    width: 80%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.serviceCard img{
+    width: 100%;
+}
+
+footer{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+footer.follow{
+    display:flex;
+    align-items: end;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7rem;
+}
+
+.copyright{
+    font-size: 0.8rem;
+}

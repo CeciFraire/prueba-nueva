@@ -5,7 +5,11 @@
 
 
 */
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 h1{/* selector global*/
     color: rgb(144, 1, 144);
@@ -73,3 +77,4 @@ p{
     height: 5px;
     font-size: large;
 }
+
