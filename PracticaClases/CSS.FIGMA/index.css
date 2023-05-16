@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    }
+
+:root{
+    --color-principal: #FFC727;
+    --color-complementario: #ffb412;
+    --color-secundario: #DFEAFF;
+    }
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4vh 5vw;
+}
+
+header .btn-dropdown {
+background-color: transparent;
+border: none;
+font-size: 1.4rem;
+}
+
+.header-controls{
+    display: none;
+}
+
+.logo{
+    position: relative;
+}
+.logo div{
+    display: flex;
+}
+
+.bi-people-fill{
+    font-size: 1.7rem;
+    position: absolute;
+    top: -28px;
+    color: var(--color-principal);
+}
+.bi-bookmark-fill{
+    padding-top: 5px;
+    color: var(--color-complementario);
+}
+.logo div h2{
+    line-height: 28px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.colorprincipal{
+    color: var(--color-principal);
+    }
+
+.hero{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+}
+
+.herotext{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 2.2rem;
+}
+
+.services{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    background-color: var(--color-secundario);
+    padding: 5vh 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.serviceCard{
+    width: 70%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.serviceCard h2{
+    display: none;
+}
+
+.serviceCard img{
+    width: 50vw;
+    height: 50vh;
+}
+
+.serviceCard img{
+    width: 100%;
+}
+
+footer{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+footer.follow{
+    display:flex;
+    align-items: end;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7rem;
+}
+
+.copyright{
+    font-size: 0.8rem;
+}
+
+.imagenHero{
+display: none;    
+}
+
+@media screen and (min-width: 750px) {
+
+    .imagenHero{
+        display: flex;
+        justify-content: center;
+        width: 30vw;
+        height: 30vh;
+    }
+
+    html{
+        font-size: 18px;
+    }
+    
+    .header-controls{
+        display:flex;
+        gap: 3vw;
+        background-color: transparent;
+        padding: 10px 10px;
+        font-size: 1.2rem;
+        width: 169px;
+        height: 62px;
+    }
+    
+    header .btn-dropdown{
+        display: none;
+    }
+
+    header .btn-register{
+        background-color: var(--color-principal);
+        color:white;
+        border:solid 1px #dbdbdd;
+        border-radius: 5px;
+        padding: 1vw 1vh;
+        box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.103);
+        font-family: 'Inter', sans-serif;
+    }
+    header .btn-login{
+        border:solid 1px #dbdbdd;
+        border-radius: 5px;
+        padding: 1vw 1vh;
+        color: black;
+        font-family: 'Inter', sans-serif;;
+    }
+    .services{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between
+    }
+.serviceCard{
+    margin: 5px 10px;
+}
+    }
+
+    @media screen and (min-width: 1300px){
+        html{
+            font-size: 22px;
+        }
+
+    .herotext{
+        display: flex;
+        flex: 1;
+        padding-right: 10vw;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .imagenHero{
+        display: flex;
+        justify-content: center;
+        flex:1;
+        width: 50vw;
+        height: 50vh;
+    }
+
+    .serviceCard h2{
+        display: block;
+    }
+
+    span {
+        color: var(--color-principal);
+
+    }
+}
